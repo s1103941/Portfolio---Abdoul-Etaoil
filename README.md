@@ -108,6 +108,49 @@ Naar mijn mening ging het begin van het project soepel, maar naarmate we verder 
 
 Voor de paper ben erg tevreden, de paper heeft een goede structuur, en op basis van de data die we hebben verkregen en de tijd die we beschikbaar hadden, hadden we een conclusie kunnen trekken, hoewel die niet ideaal is. De samenwerking tussen alle groepsgenoten ging naar mijn mening erg goed, de taken werden verdeeld op basis van iedereen zijn skills, en we hebben toch met elkaar binnen een korte tijd resultaten kunnen boeken.
 
+# Research methods
+
+## Task Definition
+
+Ons doel, van het probleem van dit project was om erachter te komen of het mogelijk is, dat cybercriminaliteitsslachtoffers een aantal specifieke kenmerken of eigenschappen hebben, waardoor ze meer kans hebben om slachtoffer te worden.
+
+Na met de groep te hebben gezeten en de dataset te hebben bekeken die we zouden gaan gebruiken, hebben we in eerste instantie besloten tot de onderzoeksvraag: “Which characteristics associate positively with (a type of) cybercrime victimization in the Netherlands?” Tijdens het project is de onderzoeksvraag meerdere malen geherformuleerd.
+
+Nadat we zagen dat we met gegevens uit 2016 werkten, herformuleerde we de onderzoeksvraag naar "Welke economische, demografische en psychologische kenmerken associëren positief met (een vorm van) cybercriminaliteitsslachtofferschap van Nederlanders in 2016? Omdat we werkten met sociaal economische gegevens, en met een gegevensbron die op meerdere manieren te beantwoorden was, was dit de vraag die we voor ogen hadden. 
+
+Aan het eind van het project hebben we de vraag nog een laatste keer geherformuleerd naar : "Welke economische en demografische kenmerken associëren positief met (een soort) cybercriminaliteitsslachtoffer van Nederlanders in 2016", waarbij we het psychologische deel wegnamen, omdat we erachter kwamen dat we niet zoveel informatie uit de dataset konden halen.
+
+## Evaluation
+
+Omdat we met een kleine hoeveelheid gegevens werkten, met zeer vergelijkbare kenmerken, was het voor ons moeilijk om te zien of er karakteristieken waren die konden verklaren of iemand meer kans had om slachtoffer van cybercriminaliteit te worden. Toch konden we zien dat met 3 van onze best presterende modellen, er een aantal karakteristieken tevoorschijn kwamen die het model besloot te gebruiken, wat ook in de andere modellen te zien was. Voor toekomstig werk zou ik aanraden om een soort neurale netwerk te gebruiken, om te zien of de voorspellingen verbeteren, of om de functies die uit ons onderzoek naar voren kwamen te gebruiken, en om te proberen ze beter te evalueren.
+
+## Conclusion
+
+Voor de paper, heb ik de conclusie geschreven, om de hoofdvraag 'Which characteristics associate positively with (a type of) cybercrime victimization in the Netherlands?' te kunnen beantwoorden
+
+Het doel van deze studie was om bepaalde groepen te vinden die een aantal kenmerken kunnen beschrijven die een positief verband hebben met het feit dat iemand het slachtoffer van cybercriminaliteit kan worden. Ten eerste zijn de resultaten van de classificatie-algoritmen zo'n 65% nauwkeurig gemeten, waardoor er geen specifieke claims kunnen worden gedaan ten aanzien van een concreet slachtofferschapsprofiel. Bovendien geeft de score aan dat er voor sommige groepen de neiging bestaat om slachtoffer te worden. Dit kan worden geconcludeerd omdat de modellen in staat zijn om een onderscheid te maken tussen slachtoffers en niet-slachtoffers met een nauwkeurigheid die 15% beter is dan het toevallige gissen, dit kan je zien aan de scores van de modellen in de tabel hieronder.
+![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/metrics.png)
+
+
+Het kenmerkende belang van de verschillende modellen kan dus nog steeds informatie geven over welke kenmerken in de zaak relevant zijn. De leeftijdsgroepen zijn belangrijk voor alle modellen en ook voor de chi-square toets. Het geslacht van het slachtoffer is ook aanwezig in sommige modellen en is een relevant splitsingspunt voor de decision tree. Verder blijkt uit de resultaten van t-SNE dat het niet in staat is om slachtoffers op hun kenmerken correct te clusteren, zoals hieronder te zien : 
+![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/is_cyber_victim_1.png)
+
+Wat betreft de sociaaleconomische en demografische kenmerken die positief samenhangen met de gerapporteerde slachtofferschap van cybercriminaliteit bij Nederlanders in 2016, beperken de wisselende resultaten van de modellen de eventuele claims die rond de kenmerken kunnen worden gedaan. Maar de score van de modellen presteert wel beter dan random, wat weer suggereert dat hier wellicht iets te vinden is. Een aanbeveling is om deep learning te gebruiken, zoals een Neural Network, en op basis hiervan kijken of deze een hogere accuracy geeft dan de modellen die wij in ons onderzoek gebruikt hebben
+
+## Planning
+
+Tijdens het project is er gebruik gemaakt van scrum, waarbij er gewerkt werd binnen sets van 2 scrums. Onderstaand is een tabel van mijn belangrijkste tickets, die ervoor gezorgd hebben om de deelvraag ‘’ te beantwoorden.
+
+------------ | -------------
+Machine Learning | Try ML classification algorithms: SVM
+Machine Learning | Try ML classification algorithms: K-NN
+Machine Learning | Try ML algorithm: t-SNE
+Machine Learning | Try PCA
+
+Onderstaande heb ik ook een foto toegevoegd van de scrumbord die we gebruikt hebben, waaronder 1 van bovenstaande tickets te zien is.
+
+![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/scrumbord.png)
+
 
 
 
