@@ -152,6 +152,104 @@ Onderstaande heb ik ook een foto toegevoegd van de scrumbord die we gebruikt heb
 
 ![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/scrumbord.png)
 
+# Predictive Analytics
+# Ik heb binnen dit hoofdstuk gewerkt met een kaggle dataset, in verband met privacy redenen van het CBS. De notebooks voor SVM en PCA/t-SNE zijn bijgevoegd aan de repository, maar zonder output. Deze is uiteraard binnen de kaggle dataset wel te zien.
+
+## Selecting a model
+During our time at CBS, our dataset contained labeled data. Since our target variable was a cybercrime predictor, we were trying to see if we could predict this variable based on the features of people. Since this is a classification problem(and we were limited to SKLearn), this limits the choices of the model to classification algorithms like : 
+
+-	Support Vector Machines
+-	Logistic Regression
+-	Random Forest
+-	K-Nearest Neighbors
+
+These models have been chosen, because of their ability to explain feature importance. I worked on the Support Vector Machine, and K-Nearest Neighbors. SVM was used because of it’s ability to capture complex relationships with datapoints. 
+Baskir, A (2015) compared SVM with another classification algorithm that is similar (Logistic Regression), and the SVM algorithm performed better in certain situations.
+
+## Selecting a model
+
+In onze tijd bij het CBS bevatte onze dataset gelabelde gegevens. Omdat onze doelvariabele een voorspeller van cybercriminaliteit was, probeerden we te zien of we deze variabele konden voorspellen op basis van de kenmerken van mensen. Aangezien dit een classificatieprobleem is (en we ons beperkten tot SKLearn), beperkt dit de keuzes van het model tot classificatie-algoritmen zoals : 
+
+- Ondersteuning van Vector Machines
+- Logistieke Regressie
+- Willekeurig bos
+- K-Dichtstbijzijnde buren
+
+Deze modellen zijn gekozen vanwege hun vermogen om het belang van functies uit te leggen. Ik heb gewerkt aan de Support Vector Machine, en K-Nearest Neighbors. SVM werd gebruikt vanwege de mogelijkheid om complexe relaties met datapunten vast te leggen. 
+Baskir, A (2015) vergeleek SVM met een ander classificatie-algoritme dat vergelijkbaar is (Logistic Regression), en het SVM-algoritme presteerde beter in bepaalde situaties.
+
+Verder heb ik ook gewerkt met cluster algoritmen, zoals PCA, en t-SNE. Dit zijn unsupervised machine learning algoritmen, en deze werden gekozen, doordat ze wellicht clusters konden laten zien van groepen mensen binnen de dataset.
+
+## Selecting a model
+
+Voor het configureren van het model heb ik gebruik gemaakt van een vorm van Cross validatie genaamd Randomized Search CV. Ik voer het algoritme, het bereik van de hyperparameters die de Machine Learning Models gebruiken, en het algoritme zal het model meerdere keren draaien met willekeurige parameters binnen het bereik, totdat het de beste set van hyperparameters vindt om te gebruiken binnen het model. In het notitieboekje heb ik dit uitgevoerd op een Support Vector Machine, door de hyperparameters : 'Gamma', 'C', en de kerneltype een random waarde te laten geven, zoals hieronder te zien is.
+
+## Training the model
+
+Na het trainen van het model met de best mogelijke hyperparameters, vergelijk ik de trein- en testgegevens met behulp van het classificatierapport van SKLearn. In eerste instantie kijk ik naar de nauwkeurigheid, om te kijken welk percentage van alle gevallen het model juist voorspelde: in dit geval is de nauwkeurigheid 78%, wat vrij goed is. Deze nauwkeurigheid geldt voor de trainingsgegevens. Voorafgaand aan de training van het model zijn de gegevens gesplitst in een trainingsset, en een testset, om te zien hoe het model presteert op ongeziene gegevens. Op de testgegevens geeft het model een nauwkeurigheid van : 74%. Het ziet er naar uit dat het model niet aan het overfitten, of underfitten is. Voor de zekerheid heb ik een ROC curve aan de notebook toegevoegd, de sample die ik heb genomen is gebalanceerd, dus de ROC curve is overbodig, maar dit zou ik kunnen gebruiken als een vorm van evalueren.
+
+## Evaluating the model
+
+Voor het evalueren van verschillende modellen voor de dataset, heb ik voor het project bij CBS een notebook gebouwd, wat alle machine learning modellen draait, en de scores van elke model(accuracy, precision, f1-score) opslaat. Dit model is hier te vinden. De modellen kunnen hiermee geevalueerd worden. Voor de scores verwijs ik u naar de paper, of naar de hoofdstuk research methods hier. 
+
+Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik de modellen met elkaar. Naar gekeken te hebben naar de scores, ziet het er naar uit dat SVM beter performd.
+
+# Communicatie
+
+Tijdens de minor heb ik 4 presentaties gegeven, waarvan 2 presentaties intern zijn, en 2 extern. Mijn eerste presentatie is gegeven tijdens de tweede week van September, tijdens deze presentatie heb ik een introductie gegeven over ons project, en onze progressie tot dan.
+
+Presentatie 1 is hier te vinden : 
+
+De tweede presentatie die ik heb gegeven, was een externe presentatie op 28 oktober. Tijdens deze presentatie heb ik het gehad over onze exploratory data analysis, feature elimination en feature extraction, en heb ik wat meer duidelijkheid gegeven over onze definitie van een cybercrime slachtoffer. Verder heb ik ook de PCA en t-SNE plots gepresenteerd, die ik heb ontwikkeld tijdens het project.
+
+Presentatie 2 is hier te vinden : 
+
+De derde presentatie was een externe presentatie, op 29 november die ik samen heb gegeven met Nicky. Hierbij heb ik de recap gepresenteerd van de laatste externe presentatie, om wat duidelijkheid te geven aan het publiek.
+
+Presentatie 3 is hier te vinden : 
+
+De laatste presentatie die ik heb gegeven, was een interne presentatie in December. Tijdens deze presentatie heb ik het gehad over de machine learning modellen die we tot nu toe behandeld hadden, en welke het er best uit is gekomen.
+
+Presentatie 4 is hier te vinden : 
+
+# Data preprocessing
+
+## Data explanation
+
+# Data toelichting CBS dataset
+
+Binnen het CBS hebben we gewerkt met 2 datasets, de sociaal economische database, wat alle personen bevat in nederland met hun sociaal-demografische gegevens/karakteristieken, en het 2016 politiebestand, welke een predictor bevat of iemand is geclassificeerd als een cybercrime slachtoffer of niet.
+
+# Data toelichting kaggle dataset
+Aangezien ik tijdens het project weinig ben betrokken bij data exploratie, zal ik een kaggle dataset gebruiken om dit te kunnen bewijzen, welke data bevat over de titanic slachtoffers, met explanatory variabelen die beschrijven of een persoon de ramp heeft overleefd, of niet. Belangrijke variabelen zijn : 
+
+Survived : Heeft deze passagier de ramp overleefd of niet
+Pclass : De klasse van de passagiers (hoe hoger de klasse, hoe luxer)
+Fare	: Prijs van een kaartje
+Cabin	: In welke kabine de passagier zich bevind.
+
+
+
+## Data exploration & Visualization
+
+# Outlier in CBS data
+Nadat ik de PCA algoritme, en t-SNE algoritme heb gedraaid op de dataset, heb ik gemerkt dat er bepaalde punten zijn die ver van de rest zijn. Hiermee had ik succesvol outliers kunnen detecteren, wat vervolgens uit de dataset werd gehaald omdat het model hier een bias op kan hebben : zie het figuur hieronder voor bewijslast.
+
+# Data exploration kaggle dataset
+Voordat ik begin met het visualiseren van de data, inspecteer ik de data om te kijken of er waardes zijn die ik niet zou verwachten(outliers), en of er waardes missen. Na een korte inspectie gedaan te hebben zie ik, dat er van 20% van de mensen de leeftijd mist, en van 77.7% van de mensen niet bekend is in welke kabine ze zaten. Ik zal deze waardes moeten vervangen, of moeten verwijderen, voordat er begonnen zal worden aan Machine Learning. Nadat de waardes zijn opgeschoond, heb ik visualizaties gemaakt, wat tot nieuwe inzichten heeft kunnen leiden met de dataset. Ik merk dat mensen die een ticket prijs van boven de 500 euro hebben, de dataset 'skewen', dit zijn outliers die ik uit het model heb verwijderd. Zie hieronder het verschil tussen deze twee.
+
+## Data cleansing & Preparation
+
+Tijdens het inspecteren van de dataframe, heb ik gemerkt dat er 2 kolommen zijn die veel waardes missen. De leeftijd kolom mist ongeveer 20% van de waarden, en de kabine kolom ongeveer 80%. Ik heb ervoor gekozen om de kabine kolom weg te laten, omdat er te veel data mist. Het zou immers kunnen dat het model de kolom gebruikt om te bepalen of iemand de ramp heeft overleefd, wat niet de bedoeling is omdat 80% van de mensen deze waarden missen. Voor de leeftijd kolom is er gekozen om de missende waardes te imputeren, hier is voor gekozen omdat er niet teveel data mist, en omdat leeftijd een belangrijke factor kunnen zijn om te overleven(de kinderen eerst). Tijdens data exploration heb ik verder gemerkt dat er outliers in de data zaten, dit waren mensen die een ticket prijs hadden die te hoog was. Nadat de data is schoongemaakt, heb ik de dataframe nogmaals geinspecteerd. Binnen de dataset, zitten er een paar variabelen die categoriaal zijn. 
+
+Aangezien Machine Learning niet goed overeen kan met tekst, heb ik ervoor gekozen om de data te transformeren door middel van ‘One Hot Encoding’. Dit geeft elke categorie een binaire waarde in een aparte kolom. Vervolgens inspecteer ik de dataframe nogmaals, en is er nog 1 stap dat moet gebeuren. Aangezien er kolommen zijn met uiteenlopende waarden, zoals de ticket prijs, en leeftijd, zou het mogelijk zijn dat een model een bias zal krijgen tegenover deze waarden, wat tot minder accurate predicties lijkt. Ik kies er voor om de data opnieuw te transformeren, dit keer om het te standardiseren op een normale verdeling, zodat alle waarden even gedistribueerd zijn. De data is naar mijn mening nu geschikt voor Machine Learning.
+
+
+## Presentaties
+
+# Schrijven van de paper
+
+In de paper heb ik binnen de ‘Models’ hoofdstuk, beschreven hoe Support Vector Machines, en t-SNE werken(Ik heb deze models gemaakt), en waarom we gekozen hebben voor deze models. Ook heb ik beschreven waar we deze models voor gebruiken. Verder heb ik de conclusie geschreven binnen de paper, naar aanleiding van de notebook die ik heb ontwikkeld dat alle algoritmen evalueert.
 
 
 
