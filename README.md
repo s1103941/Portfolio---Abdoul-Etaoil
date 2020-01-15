@@ -192,6 +192,8 @@ Na het trainen van het model met de best mogelijke hyperparameters, vergelijk ik
 
 Voor het evalueren van verschillende modellen voor de dataset, heb ik voor het project bij CBS een notebook gebouwd, wat alle machine learning modellen draait, en de scores van elke model(accuracy, precision, f1-score) opslaat. Dit model is hier te vinden. De modellen kunnen hiermee geevalueerd worden. Voor de scores verwijs ik u naar de paper, of naar de hoofdstuk research methods hier. 
 
+De link naar de evalueer notebook is hier te vinden : 
+
 Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik de modellen met elkaar. Naar gekeken te hebben naar de scores, ziet het er naar uit dat SVM beter performd.
 
 # Communicatie
@@ -235,6 +237,10 @@ Cabin	: In welke kabine de passagier zich bevind.
 # Outlier in CBS data
 Nadat ik de PCA algoritme, en t-SNE algoritme heb gedraaid op de dataset, heb ik gemerkt dat er bepaalde punten zijn die ver van de rest zijn. Hiermee had ik succesvol outliers kunnen detecteren, wat vervolgens uit de dataset werd gehaald omdat het model hier een bias op kan hebben : zie het figuur hieronder voor bewijslast.
 
+[Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/pca.png)
+
+
+
 # Data exploration kaggle dataset
 Voordat ik begin met het visualiseren van de data, inspecteer ik de data om te kijken of er waardes zijn die ik niet zou verwachten(outliers), en of er waardes missen. Na een korte inspectie gedaan te hebben zie ik, dat er van 20% van de mensen de leeftijd mist, en van 77.7% van de mensen niet bekend is in welke kabine ze zaten. Ik zal deze waardes moeten vervangen, of moeten verwijderen, voordat er begonnen zal worden aan Machine Learning. Nadat de waardes zijn opgeschoond, heb ik visualizaties gemaakt, wat tot nieuwe inzichten heeft kunnen leiden met de dataset. Ik merk dat mensen die een ticket prijs van boven de 500 euro hebben, de dataset 'skewen', dit zijn outliers die ik uit het model heb verwijderd. Zie hieronder het verschil tussen deze twee.
 
@@ -246,6 +252,16 @@ Aangezien Machine Learning niet goed overeen kan met tekst, heb ik ervoor gekoze
 
 
 ## Presentaties
+
+Tijdens de minor heb ik 4 presentaties gegeven, waarvan 2 presentaties intern zijn, en 2 extern. Mijn eerste presentatie is gegeven tijdens de tweede week van September, tijdens deze presentatie heb ik een introductie gegeven over ons project, en onze progressie tot dan.
+
+De tweede presentatie die ik heb gegeven, was een externe presentatie op 28 oktober. Tijdens deze presentatie heb ik het gehad over onze exploratory data analysis, feature elimination en feature extraction, en heb ik wat meer duidelijkheid gegeven over onze definitie van een cybercrime slachtoffer. Verder heb ik ook de PCA en t-SNE plots gepresenteerd, die ik heb ontwikkeld tijdens het project. Zie : [Github](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentations)
+
+De derde presentatie was een externe presentatie, op 29 november die ik samen heb gegeven met Nicky. Hierbij heb ik de recap gepresenteerd van de laatste externe presentatie, om wat duidelijkheid te geven aan het publiek.
+
+De laatste presentatie die ik heb gegeven, was een interne presentatie in December. Tijdens deze presentatie heb ik het gehad over de machine learning modellen die we tot nu toe behandeld hadden, en welke het er best uit is gekomen.
+
+Zie deze folder voor de presentaties die ik heb gegeven : [Github](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentation/external presentation 2.pptx)
 
 # Schrijven van de paper
 
