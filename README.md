@@ -141,6 +141,7 @@ Wat betreft de sociaaleconomische en demografische kenmerken die positief samenh
 
 Tijdens het project is er gebruik gemaakt van scrum, waarbij er gewerkt werd binnen sets van 2 scrums. Onderstaand is een tabel van mijn belangrijkste tickets, die ervoor gezorgd hebben om de deelvraag ‘’ te beantwoorden.
 
+Taak | Actie
 ------------ | -------------
 Machine Learning | Try ML classification algorithms: SVM
 Machine Learning | Try ML classification algorithms: K-NN
