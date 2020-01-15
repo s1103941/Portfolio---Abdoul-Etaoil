@@ -4,4 +4,4 @@ Dit is mijn portfolio voor de minor Applied Data Science, Abdoul Etaoil - 150821
 # Datacamp bewijslast
 
 Zoals in de afbeelding hieronder te zien is, heb ik alle datacamp courses behaald.
-![Screenshot](Screenshot 2020-01-15 at 20.15.35.png)
+![Screenshot](images/Screenshot 2020-01-15 at 20.15.35.png)
