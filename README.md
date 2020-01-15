@@ -192,7 +192,7 @@ Na het trainen van het model met de best mogelijke hyperparameters, vergelijk ik
 
 Voor het evalueren van verschillende modellen voor de dataset, heb ik voor het project bij CBS een notebook gebouwd, wat alle machine learning modellen draait, en de scores van elke model(accuracy, precision, f1-score) opslaat. Dit model is hier te vinden. De modellen kunnen hiermee geevalueerd worden. Voor de scores verwijs ik u naar de paper, of naar de hoofdstuk research methods hier. 
 
-De link naar de evalueer notebook is hier te vinden : 
+De link naar de evalueer notebook is hier te vinden : [Notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/AutomatedModels.ipynb)
 
 Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik de modellen met elkaar. Naar gekeken te hebben naar de scores, ziet het er naar uit dat SVM beter performd.
 
@@ -216,8 +216,6 @@ Presentatie 4 is hier te vinden :
 
 # Data preprocessing
 
-## Data explanation
-
 # Data toelichting CBS dataset
 
 Binnen het CBS hebben we gewerkt met 2 datasets, de sociaal economische database, wat alle personen bevat in nederland met hun sociaal-demografische gegevens/karakteristieken, en het 2016 politiebestand, welke een predictor bevat of iemand is geclassificeerd als een cybercrime slachtoffer of niet.
@@ -231,13 +229,12 @@ Fare	: Prijs van een kaartje
 Cabin	: In welke kabine de passagier zich bevind.
 
 
-
 ## Data exploration & Visualization
 
 # Outlier in CBS data
 Nadat ik de PCA algoritme, en t-SNE algoritme heb gedraaid op de dataset, heb ik gemerkt dat er bepaalde punten zijn die ver van de rest zijn. Hiermee had ik succesvol outliers kunnen detecteren, wat vervolgens uit de dataset werd gehaald omdat het model hier een bias op kan hebben : zie het figuur hieronder voor bewijslast.
 
-[Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/pca.png)
+![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/pca.png)
 
 
 
