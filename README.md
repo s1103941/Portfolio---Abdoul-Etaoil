@@ -87,7 +87,8 @@ Taak | Actie
 Machine Learning | Try ML classification algorithms: SVM
 Machine Learning | Try ML classification algorithms: K-NN
 Machine Learning | Try ML algorithm: t-SNE
-Machine Learning | Try PCA
+Machine Learning | Try 
+
 
 Onderstaande heb ik ook een foto toegevoegd van de scrumbord die we gebruikt hebben, waaronder 1 van bovenstaande tickets te zien is.
 
@@ -175,7 +176,7 @@ Aangezien ik tijdens het project weinig ben betrokken bij data exploratie, zal i
 ## Data exploration & Visualization<a name="exploration"></a>
 
 ## Outlier in CBS data
-[Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/pca.ipynb)
+[Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/PCA.ipynb)
 
 Nadat ik de PCA algoritme, en t-SNE algoritme heb gedraaid op de dataset, heb ik gemerkt dat er bepaalde punten zijn die ver van de rest zijn. Hiermee had ik succesvol outliers kunnen detecteren, wat vervolgens uit de dataset werd gehaald omdat het model hier een bias op kan hebben : zie het figuur hieronder voor bewijslast.
 
