@@ -12,27 +12,27 @@ Zoals in de afbeelding hieronder te zien is, heb ik alle datacamp courses behaal
     1. [Reflectie op eigen contributie](#contributie)
     2. [Reflectie op leerdoelen in project](#leerdoelen)
     3. [Reflectie op groepsproject als geheel](#groepsproject)
-2. Research methods
+2. [Research Methods](#methods)
     1. [Task Definition](#task)
     2. [Evaluation](#evaluation)
     3. [Conclusions](#conclusions)
     4. [Planning](#planning)
-3. Predictive analytics
+3. [Predictive analytics](#predictive)
     1. [Selecting a model](#select)
     2. [Configuring a model](#configure)
     3. [Training a model](#train)
     4. [evaluating a model](#evaluate)
-4. Data preprocessing
+4. [Data preprocessing](#data)
     1. [Data explanation](#explanation)
     2. [Data exploration & visualization](#exploration)
     3. [Data cleansing & preparation](#clean)
-4. Communcatie
+4. [Communicatie](#communicatie)
     1. [Presentaties](#presentaties)
     2. [Paper](#paper)
    
 
 
-# Research methods
+# Research methods<a name="methods"></a>
 
 ## Task Definition<a name="task"></a>
 
@@ -93,7 +93,7 @@ Onderstaande heb ik ook een foto toegevoegd van de scrumbord die we gebruikt heb
 
 ![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/scrumbord.png)
 
-# Predictive Analytics
+# Predictive Analytics <a name="predictive"></a>
 # Ik heb binnen dit hoofdstuk gewerkt met een kaggle dataset, in verband met privacy redenen van het CBS. De notebooks voor SVM en PCA/t-SNE zijn bijgevoegd aan de repository, maar zonder output. Deze is uiteraard binnen de kaggle dataset wel te zien.
 
 Binnen het hoofdstuk zal ik de focus leggen op deze notebook
@@ -154,7 +154,7 @@ Voor de verdere visualisatie van de modellen, verwijs ik u naar de notebook dat 
 [Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/predictiveanalytics.ipynb)
 
 
-# Data preprocessing
+# Data preprocessing <a name="data"></a>
 
 # Data explanation<a name="explanation"></a>
 
@@ -193,19 +193,19 @@ Tijdens het inspecteren van de dataframe, heb ik gemerkt dat er 2 kolommen zijn 
 Aangezien Machine Learning niet goed overeen kan met tekst, heb ik ervoor gekozen om de data te transformeren door middel van ‘One Hot Encoding’. Dit geeft elke categorie een binaire waarde in een aparte kolom. Vervolgens inspecteer ik de dataframe nogmaals, en is er nog 1 stap dat moet gebeuren. Aangezien er kolommen zijn met uiteenlopende waarden, zoals de ticket prijs, en leeftijd, zou het mogelijk zijn dat een model een bias zal krijgen tegenover deze waarden, wat tot minder accurate predicties lijkt. Ik kies er voor om de data opnieuw te transformeren, dit keer om het te standardiseren op een normale verdeling, zodat alle waarden even gedistribueerd zijn. De data is naar mijn mening nu geschikt voor Machine Learning.
 
 
-# Communicatie
+# Communicatie<a name="communicatie"></a>
 
 ## Presentaties<a name="Presentaties"></a>
 
 Tijdens de minor heb ik 4 presentaties gegeven, waarvan 2 presentaties intern zijn, en 2 extern. Mijn eerste presentatie is gegeven tijdens de tweede week van September, tijdens deze presentatie heb ik een introductie gegeven over ons project, en onze progressie tot dan.
 
-De tweede presentatie die ik heb gegeven, was een externe presentatie op 28 oktober. Tijdens deze presentatie heb ik het gehad over onze exploratory data analysis, feature elimination en feature extraction, en heb ik wat meer duidelijkheid gegeven over onze definitie van een cybercrime slachtoffer. Verder heb ik ook de PCA en t-SNE plots gepresenteerd, die ik heb ontwikkeld tijdens het project. Zie : [Github](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentations)
+De tweede presentatie die ik heb gegeven, was een externe presentatie op 28 oktober. Tijdens deze presentatie heb ik het gehad over onze exploratory data analysis, feature elimination en feature extraction, en heb ik wat meer duidelijkheid gegeven over onze definitie van een cybercrime slachtoffer. Verder heb ik ook de PCA en t-SNE plots gepresenteerd, die ik heb ontwikkeld tijdens het project. Zie : [Externe presentatie 2](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentations/externalpresentation2.pptx)
 
 De derde presentatie was een externe presentatie, op 29 november die ik samen heb gegeven met Nicky. Hierbij heb ik de recap gepresenteerd van de laatste externe presentatie, om wat duidelijkheid te geven aan het publiek.
 
 De laatste presentatie die ik heb gegeven, was een interne presentatie in December. Tijdens deze presentatie heb ik het gehad over de machine learning modellen die we tot nu toe behandeld hadden, en welke het er best uit is gekomen.
 
-Zie deze folder voor de presentaties die ik heb gegeven : [Github](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentation)
+Zie deze folder voor de presentaties die ik heb gegeven : [Presentaties](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentation)
 
 # Schrijven van de paper<a name="paper"></a>
 
