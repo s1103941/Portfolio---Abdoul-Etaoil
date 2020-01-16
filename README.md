@@ -146,6 +146,23 @@ Nadat we zagen dat we met gegevens uit 2016 werkten, herformuleerde we de onderz
 
 Aan het eind van het project hebben we de vraag nog een laatste keer geherformuleerd naar : "Welke economische en demografische kenmerken associëren positief met (een soort) cybercriminaliteitsslachtoffer van Nederlanders in 2016", waarbij we het psychologische deel wegnamen, omdat we erachter kwamen dat we niet zoveel informatie uit de dataset konden halen.
 
+De deelvragen die geformuleerd zijn om antwoord te geven aan de hoofdvraag zijn : 
+
+How should reported cybercrime victims through the scope of this project be defined?
+
+Which socio-economic and demographic features does the dataset from SN contain?
+
+How to account for major imbalances between datasets when it comes to training machine learning models?
+
+Which models are appropriate for classifying cybercrime victims based on categorical values?
+
+How can the chosen models be properly evaluated?
+
+What method can be applied to extract features that are positively associated with those victimized by cybercrime?
+
+How can be statistically proven that victimized groups, individuals that have a certain amount of features in common, are significantly present in the dataset?
+
+
 ## Evaluation<a name="evaluation"></a>
 
 Omdat we met een kleine hoeveelheid gegevens werkten, met zeer vergelijkbare kenmerken, was het voor ons moeilijk om te zien of er karakteristieken waren die konden verklaren of iemand meer kans had om slachtoffer van cybercriminaliteit te worden. Toch konden we zien dat met 3 van onze best presterende modellen, er een aantal karakteristieken tevoorschijn kwamen die het model besloot te gebruiken, wat ook in de andere modellen te zien was. Voor toekomstig werk zou ik aanraden om een soort neurale netwerk te gebruiken, om te zien of de voorspellingen verbeteren, of om de functies die uit ons onderzoek naar voren kwamen te gebruiken, en om te proberen ze beter te evalueren.
@@ -193,11 +210,15 @@ In onze tijd bij het CBS bevatte onze dataset gelabelde gegevens. Omdat onze doe
 Deze modellen zijn gekozen vanwege hun vermogen om het belang van functies uit te leggen. Ik heb gewerkt aan de Support Vector Machine, en K-Nearest Neighbors. SVM werd gebruikt vanwege de mogelijkheid om complexe relaties met datapunten vast te leggen. 
 Baskir, A (2015) vergeleek SVM met een ander classificatie-algoritme dat vergelijkbaar is (Logistic Regression), en het SVM-algoritme presteerde beter in bepaalde situaties.
 
-Verder heb ik ook gewerkt met cluster algoritmen, zoals PCA, en t-SNE. Dit zijn unsupervised machine learning algoritmen, en deze werden gekozen, doordat ze wellicht clusters konden laten zien van groepen mensen binnen de dataset.
+Verder heb ik ook gewerkt met cluster algoritmen, zoals PCA, en t-SNE. Dit zijn unsupervised machine learning algoritmen, en deze werden gekozen, doordat ze populair, en veelgebruikte cluster algoritmen zijn, die wellicht in staat zouden zijn om groepen van slachtoffers bij elkaar te kunnen clusteren.
 
 ## Configuring a model<a name="configure"></a>
 
 Voor het configureren van het model heb ik gebruik gemaakt van een vorm van Cross validatie genaamd Randomized Search CV. Ik voer het algoritme, het bereik van de hyperparameters die de Machine Learning Models gebruiken, en het algoritme zal het model meerdere keren draaien met willekeurige parameters binnen het bereik, totdat het de beste set van hyperparameters vindt om te gebruiken binnen het model. In het notitieboekje heb ik dit uitgevoerd op een Support Vector Machine, door de hyperparameters : 'Gamma', 'C', en de kerneltype een random waarde te laten geven, zoals hieronder te zien is.
+
+De K-NN algoritme dat ook in het notebook te vinden is, is ook getuned, door het algoritme meerdere keren te draaien met verschillende neighbors als parameter, en dit is gevisualiseerd in de afbeelding hieronder : 
+![K-NN](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/knn.png)
+
 
 ## Training the model<a name="train"></a>
 
@@ -209,7 +230,11 @@ Voor het evalueren van verschillende modellen voor de dataset, heb ik voor het p
 
 De link naar de evalueer notebook is hier te vinden : [Notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/AutomatedModels.ipynb)
 
-Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik de modellen met elkaar. Naar gekeken te hebben naar de scores, ziet het er naar uit dat SVM beter performd.
+Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik de modellen met elkaar. Na gekeken te hebben naar de scores, en door k-NN ook te hyper parameter tunen, ziet het er naar uit dat K-NN een iets betere performance. De train en test accuracy zijn ook erg dicht bij elkaar, dus het ziet er ook naar uit dat het model niet aan het overfitting of underfitten is.
+
+## Visualizing the outcome of a model<a name="outcome"></a>
+
+Voor de visualisatie van de modellen, verwijs ik u naar de notebook dat hier te vinden is : 
 
 
 # Data preprocessing
