@@ -44,19 +44,22 @@ Nadat we zagen dat we met gegevens uit 2016 werkten, herformuleerde we de onderz
 
 Aan het eind van het project hebben we de vraag nog een laatste keer geherformuleerd naar : Which economic and demographic features associate positively with (a typeof) cybercrime victimization of Dutch citizens in 2016?”, waarbij we het psychologische deel wegnamen, omdat we erachter kwamen dat we niet zoveel informatie uit de safety monitor dataset konden halen.
 
-De deelvragen die geformuleerd zijn om antwoord te geven aan de hoofdvraag zijn : 
+De deelvragen die geformuleerd zijn om antwoord te geven aan de hoofdvraag zijn, en aan welke ik heb gecontributeerd : 
 
 How should reported cybercrime victims through the scope of this project be defined?
 
 Which socio-economic and demographic features does the dataset from SN contain?
+Hier heb ik aan bijgedragen door aan het begin van het project Exploratory Data Analysis te doen, en de dataset te inspecteren/cleanen.
 
 How to account for major imbalances between datasets when it comes to training machine learning models?
 
 Which models are appropriate for classifying cybercrime victims based on categorical values?
+Ik heb hier onderzoek naar gedaan aan het begin van het project, en op basis hiervan hebben we gebruik gemaakt van one-hot encoding.
 
 How can the chosen models be properly evaluated?
 
 What method can be applied to extract features that are positively associated with those victimized by cybercrime?
+Hier heb ik aan bijgedragen door te onderzoeken hoe feature importance uit een model gehaald kan worden, en heb ik dit geprobeerd te visualiseren met cluster algoritmen
 
 How can be statistically proven that victimized groups, individuals that have a certain amount of features in common, are significantly present in the dataset?
 
