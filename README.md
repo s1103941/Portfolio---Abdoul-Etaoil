@@ -199,7 +199,7 @@ Aangezien Machine Learning niet goed overeen kan met tekst, heb ik ervoor gekoze
 
 Tijdens de minor heb ik 4 presentaties gegeven, waarvan 2 presentaties intern zijn, en 2 extern. Mijn eerste presentatie is gegeven tijdens de tweede week van September, tijdens deze presentatie heb ik een introductie gegeven over ons project, en onze progressie tot dan.
 
-De tweede presentatie die ik heb gegeven, was een externe presentatie op 28 oktober. Tijdens deze presentatie heb ik het gehad over onze exploratory data analysis, feature elimination en feature extraction, en heb ik wat meer duidelijkheid gegeven over onze definitie van een cybercrime slachtoffer. Verder heb ik ook de PCA en t-SNE plots gepresenteerd, die ik heb ontwikkeld tijdens het project. Zie : [Externe presentatie 2](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentations/externalpresentation2.pptx)
+De tweede presentatie die ik heb gegeven, was een externe presentatie op 28 oktober. Tijdens deze presentatie heb ik het gehad over onze exploratory data analysis, feature elimination en feature extraction, en heb ik wat meer duidelijkheid gegeven over onze definitie van een cybercrime slachtoffer. Verder heb ik ook de PCA en t-SNE plots gepresenteerd, die ik heb ontwikkeld tijdens het project. Zie : [Externe presentatie 2](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentation/externalpresentation2.pptx)
 
 De derde presentatie was een externe presentatie, op 29 november die ik samen heb gegeven met Nicky. Hierbij heb ik de recap gepresenteerd van de laatste externe presentatie, om wat duidelijkheid te geven aan het publiek.
 
