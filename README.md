@@ -77,7 +77,7 @@ How can be statistically proven that victimized groups, individuals that have a 
 
 ## Conclusion<a name="conclusions"></a>
 
-Voor de paper, heb ik de conclusie geschreven, om de hoofdvraag 'Which characteristics associate positively with (a type of) cybercrime victimization in the Netherlands?' te kunnen beantwoorden
+Voor de paper, heb ik de conclusie geschreven, om de hoofdvraag "Which economic and demographic features associate positively with (a typeof) cybercrime victimization of Dutch citizens in 2016?” te kunnen beantwoorden
 
 Het doel van deze studie was om bepaalde groepen te vinden die een aantal kenmerken kunnen beschrijven die een positief verband hebben met het feit dat iemand het slachtoffer van cybercriminaliteit kan worden. Ten eerste hebben de resultaten van de classificatie-algoritmen zo'n 65% nauwkeurigheid gemeten, waardoor er geen specifieke claims kunnen worden gedaan ten aanzien van een concreet slachtofferschapsprofiel. De score geeft aan dat er voor sommige groepen de neiging bestaat om slachtoffer te worden. Dit kan worden geconcludeerd omdat de modellen in staat zijn om een onderscheid te maken tussen slachtoffers en niet-slachtoffers met een nauwkeurigheid die 15% beter is dan random guessing, dit kan je zien aan de scores van de modellen in de tabel hieronder.
 ![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/metrics.png)
