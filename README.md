@@ -90,7 +90,7 @@ Wat betreft de sociaaleconomische en demografische kenmerken die positief samenh
 
 ## Planning<a name="planning"></a>
 
-Tijdens het project is er gebruik gemaakt van scrum, waarbij er gewerkt werd binnen sets van 2 scrums. Onderstaand is een tabel van mijn belangrijkste tickets, die ervoor gezorgd hebben om de deelvraag ‘’ te beantwoorden.
+Tijdens het project is er gebruik gemaakt van scrum, waarbij er gewerkt werd binnen sets van 2 weken(sprints). Onderstaand is een tabel van mijn belangrijkste tickets, die ervoor gezorgd hebben om de deelvraag ‘’ te beantwoorden.
 
 Taak | Actie
 ------------ | -------------
