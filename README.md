@@ -100,9 +100,11 @@ Binnen het hoofdstuk zal ik de focus leggen op deze notebook
 [Link naar notebook voor kaggle dataset](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/predictiveanalytics.ipynb)
 
 Onderstaand zijn de notebooks die ik heb gebruikt bij het CBS, onderdelen die in de kaggle notebook gebruikt zijn, zijn vanuit deze notebooks afgeleid
-[Link naar t-SNE notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/t-SNE plots.ipynb)
-[Link naar PCA notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/PCA.ipynb)
-[Link naar SVM notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/Support Vector Machine.ipynb)
+
+1. [CBS notebooks voor bewijs]
+    1. [Link naar t-SNE notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/t-SNE.ipynb)
+    2. [Link naar PCA notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/PCA.ipynb)
+    3. [Link naar SVM notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/svm.ipynb)
 
 ## Selecting a model<a name="select"></a>
 
