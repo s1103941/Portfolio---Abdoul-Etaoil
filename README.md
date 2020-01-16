@@ -134,6 +134,8 @@ Bron : Abdallah Bashir (2012). Comparative study on classification performance b
 
 Verder heb ik ook gewerkt met cluster algoritmen, zoals PCA, en t-SNE. Dit zijn unsupervised machine learning algoritmen, en deze werden gekozen, doordat ze populair, en veelgebruikte cluster algoritmen zijn, die wellicht in staat zouden zijn om groepen van slachtoffers bij elkaar te kunnen clusteren. Ook werden ze gekozen omdat deze 2 machine learning algoritmen ook gebruikt worden voor feature extraction, waardoor we minder kolommen overhouden, dat wellicht redundante informatie had kunnen zijn, of informatie dat niet gebruikt zou worden.
 
+Binnen de kaggle dataset, dat in de subhoofdstukken hieronder gebruikt worden, maak ik gebruik van een classificatieprobleem dat lijkt op de CBS dataset. Het bevat data over personen met karakteristieken, dat beschrijft of ze diabetes hebben of niet. Daarbij bij gebruik ik de (KNN en SVM) dat hierboven beschreven is
+
 ## Configuring a model<a name="configure"></a>
 
 Voor het configureren van het model heb ik gebruik gemaakt van een vorm van Cross validatie genaamd Randomized Search CV. Ik voer het algoritme, het bereik van de hyperparameters die de Machine Learning Models gebruiken, en het algoritme zal het model meerdere keren draaien met willekeurige parameters binnen het bereik, totdat het de beste set van hyperparameters vindt om te gebruiken binnen het model. In de notebook heb ik dit uitgevoerd op een Support Vector Machine, door de hyperparameters : 'Gamma', 'C', en de kerneltype een random waarde te laten geven, zoals in dit notebook te zien is.
