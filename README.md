@@ -40,9 +40,9 @@ Ons doel, van het probleem van dit project was om erachter te komen of het mogel
 
 Na met de groep te hebben gezeten en de dataset te hebben bekeken die we zouden gaan gebruiken, hebben we in eerste instantie besloten tot de onderzoeksvraag: “Which characteristics associate positively with (a type of) cybercrime victimization in the Netherlands?” Tijdens het project is de onderzoeksvraag meerdere malen geherformuleerd.
 
-Nadat we zagen dat we met gegevens uit 2016 werkten, herformuleerde we de onderzoeksvraag naar "Welke economische, demografische en psychologische kenmerken associëren positief met (een vorm van) cybercriminaliteitsslachtofferschap van Nederlanders in 2016? Omdat we werkten met sociaal economische gegevens, en met een gegevensbron die op meerdere manieren te beantwoorden was, was dit de vraag die we voor ogen hadden. 
+Nadat we zagen dat we met gegevens uit 2016 werkten, herformuleerde we de onderzoeksvraag naar "Which economic, demographic and psychological features associate positively with (a typeof) cybercrime victimization of Dutch citizens in 2016?"/ Omdat we werkten met sociaal economische gegevens, en met een gegevensbron die op meerdere manieren te beantwoorden was, was dit de vraag die we voor ogen hadden. 
 
-Aan het eind van het project hebben we de vraag nog een laatste keer geherformuleerd naar : "Welke economische en demografische kenmerken associëren positief met (een soort) cybercriminaliteitsslachtoffer van Nederlanders in 2016", waarbij we het psychologische deel wegnamen, omdat we erachter kwamen dat we niet zoveel informatie uit de dataset konden halen.
+Aan het eind van het project hebben we de vraag nog een laatste keer geherformuleerd naar : Which economic and demographic features associate positively with (a typeof) cybercrime victimization of Dutch citizens in 2016?”, waarbij we het psychologische deel wegnamen, omdat we erachter kwamen dat we niet zoveel informatie uit de safety monitor dataset konden halen.
 
 De deelvragen die geformuleerd zijn om antwoord te geven aan de hoofdvraag zijn : 
 
@@ -63,7 +63,14 @@ How can be statistically proven that victimized groups, individuals that have a 
 
 ## Evaluation<a name="evaluation"></a>
 
-Omdat we met een kleine hoeveelheid gegevens werkten, met zeer vergelijkbare kenmerken, was het voor ons moeilijk om te zien of er karakteristieken waren die konden verklaren of iemand meer kans had om slachtoffer van cybercriminaliteit te worden. Toch konden we zien dat met 3 van onze best presterende modellen, er een aantal karakteristieken tevoorschijn kwamen die het model besloot te gebruiken, wat ook in de andere modellen te zien was. Voor toekomstig werk zou ik aanraden om een soort neurale netwerk te gebruiken, om te zien of de voorspellingen verbeteren, of om de functies die uit ons onderzoek naar voren kwamen te gebruiken, en om te proberen ze beter te evalueren.
+Omdat we met een kleine hoeveelheid gegevens werkten, met zeer vergelijkbare kenmerken, was het voor ons moeilijk om te zien of er karakteristieken waren die konden verklaren of iemand meer kans had om slachtoffer van cybercriminaliteit te worden. Toch konden we zien dat met 3 van onze best presterende modellen, er een aantal karakteristieken tevoorschijn kwamen die het model besloot te gebruiken, wat ook in de andere modellen te zien was. De classificatie scores werden per model gebruikt, om dit te evalueren. Door de modellen te gebruiken met de beste scores, konden we de karakteristieken uit de modellen halen die bepalend was voor het voorspellen van een slachtoffer van cybercrime. Vervolgens werden deze karakteristieken getoetst tegen een Chi-Square statistieke test.  Voor toekomstig werk zou ik aanraden om een soort neurale netwerk te gebruiken, om te zien of de voorspellingen verbeteren, of om de karakteristiek die uit ons onderzoek naar voren kwamen te gebruiken, en dit verder te valideren. Op basis van bovenstaande evaluatie methode kon er antwoord gegeven worden op de deelvragen : 
+
+Which models are appropriate for classifying cybercrime victims based on categorical values?
+
+How can the chosen models be properly evaluated?
+
+How can be statistically proven that victimized groups, individuals that have a certain amount of features in common, are significantly present in the dataset?
+
 
 ## Conclusion<a name="conclusions"></a>
 
