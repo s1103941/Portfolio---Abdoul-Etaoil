@@ -137,13 +137,13 @@ Na het trainen van het model met de best mogelijke hyperparameters, vergelijk ik
 
 ## Evaluating the model<a name="evaluate"></a>
 
-Voor het evalueren van verschillende modellen voor de dataset, heb ik voor het project bij CBS een notebook gebouwd, wat alle machine learning modellen draait, en de scores van elke model(accuracy, precision, f1-score) opslaat. Dit model is hier te vinden :
+Voor het evalueren van verschillende modellen voor de dataset, heb ik voor het project bij CBS een notebook gebouwd samen met Job, wat alle machine learning modellen draait, en de scores van elke model(accuracy, precision, f1-score) opslaat. Dit model is hier te vinden :
 
 [Evalueer Notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/AutomatedModels.ipynb)
 
+Bovenstaande notebook, slaat alle true positives(correct predicted victims) op in een bestand, waar de verschillende modellen opnieuw gerund op kunnen worden. Dit wordt gedaan om te zien of er bepaalde features sterker voorkomen.
+
 Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik de modellen met elkaar. Na gekeken te hebben naar de scores, en door k-NN ook te hyper parameter tunen, ziet het er naar uit dat K-NN een iets betere performance heeft. De train en test accuracy zijn ook erg dicht bij elkaar, dus het ziet er ook naar uit dat het model niet aan het overfitting of underfitten is. Beide modellen scoren erg goed op het predicten van een 0
-
-
 
 
 ## Visualizing the outcome of a model<a name="outcome"></a>
