@@ -217,7 +217,7 @@ Verder heb ik ook gewerkt met cluster algoritmen, zoals PCA, en t-SNE. Dit zijn 
 Voor het configureren van het model heb ik gebruik gemaakt van een vorm van Cross validatie genaamd Randomized Search CV. Ik voer het algoritme, het bereik van de hyperparameters die de Machine Learning Models gebruiken, en het algoritme zal het model meerdere keren draaien met willekeurige parameters binnen het bereik, totdat het de beste set van hyperparameters vindt om te gebruiken binnen het model. In het notitieboekje heb ik dit uitgevoerd op een Support Vector Machine, door de hyperparameters : 'Gamma', 'C', en de kerneltype een random waarde te laten geven, zoals hieronder te zien is.
 
 De K-NN algoritme dat ook in het notebook te vinden is, is ook getuned, door het algoritme meerdere keren te draaien met verschillende neighbors als parameter, en dit is gevisualiseerd in de afbeelding hieronder : 
-![K-NN](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/knn.png)
+![K-NN](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/k-nn.png)
 
 
 ## Training the model<a name="train"></a>
@@ -234,7 +234,10 @@ Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik d
 
 ## Visualizing the outcome of a model<a name="outcome"></a>
 
-Voor de visualisatie van de modellen, verwijs ik u naar de notebook dat hier te vinden is : 
+Voor SVM, heb ik een ROC curve getekend als voorbeeld van model visualisatie/evaluatie : 
+![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/ROC.png)
+
+Voor de verdere visualisatie van de modellen, verwijs ik u naar de notebook dat hier te vinden is : 
 
 
 # Data preprocessing
