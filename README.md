@@ -96,6 +96,14 @@ Onderstaande heb ik ook een foto toegevoegd van de scrumbord die we gebruikt heb
 # Predictive Analytics
 # Ik heb binnen dit hoofdstuk gewerkt met een kaggle dataset, in verband met privacy redenen van het CBS. De notebooks voor SVM en PCA/t-SNE zijn bijgevoegd aan de repository, maar zonder output. Deze is uiteraard binnen de kaggle dataset wel te zien.
 
+Binnen het hoofdstuk zal ik de focus leggen op deze notebook
+[Link naar notebook voor kaggle dataset](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/predictiveanalytics.ipynb)
+
+Onderstaand zijn de notebooks die ik heb gebruikt bij het CBS, onderdelen die in de kaggle notebook gebruikt zijn, zijn vanuit deze notebooks afgeleid
+[Link naar t-SNE notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/t-SNE plots.ipynb)
+[Link naar PCA notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/PCA.ipynb)
+[Link naar SVM notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/Support Vector Machine.ipynb)
+
 ## Selecting a model<a name="select"></a>
 
 In onze tijd bij het CBS bevatte onze dataset gelabelde gegevens. Omdat onze doelvariabele een voorspeller van cybercriminaliteit was, probeerden we te zien of we deze variabele konden voorspellen op basis van de kenmerken van mensen. Aangezien dit een classificatieprobleem is (en we ons beperkten tot SKLearn), beperkt dit de keuzes van het model tot classificatie-algoritmen zoals : 
@@ -138,6 +146,7 @@ Voor SVM, heb ik een ROC curve getekend als voorbeeld van model visualisatie/eva
 ![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/ROC.png)
 
 Voor de verdere visualisatie van de modellen, verwijs ik u naar de notebook dat hier te vinden is : 
+[Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/predictiveanalytics.ipynb)
 
 
 # Data preprocessing
