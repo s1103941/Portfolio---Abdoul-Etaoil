@@ -174,7 +174,7 @@ Voor de verdere visualisatie van de modellen, verwijs ik u naar de kaggle notebo
 
 ## Data toelichting CBS dataset
 
-Binnen het CBS hebben we gewerkt met 2 datasets, de sociaal economische database, wat alle personen bevat in nederland met hun sociaal-demografische gegevens/karakteristieken, en het 2016 politiebestand, welke een predictor bevat of iemand is geclassificeerd als een cybercrime slachtoffer of niet, samen met informatie over een delict : denk aan een gewapende overval, of fraude.
+Binnen het CBS hebben we gewerkt met 2 datasets, de sociaal economische database, wat alle personen bevat in nederland met hun sociaal-demografische gegevens/karakteristieken, en het 2016 politiebestand, welke een predictor bevat of iemand is geclassificeerd als een cybercrime slachtoffer of niet, samen met informatie over een delict : denk aan een gewapende overval, of fraude, het politiebestand bevat ook de locatie van het delict, en de identificatienummer van een persoon.
 
 ## Data toelichting kaggle dataset
 Aangezien ik tijdens het project weinig ben betrokken bij data exploratie, zal ik een kaggle dataset gebruiken om dit te kunnen bewijzen, welke data bevat over de titanic slachtoffers, met explanatory variabelen die beschrijven of een persoon de ramp heeft overleefd, of niet. Belangrijke variabelen zijn : 
@@ -183,6 +183,8 @@ Aangezien ik tijdens het project weinig ben betrokken bij data exploratie, zal i
 2. Pclass : De klasse van de passagiers (hoe hoger de klasse, hoe luxer)
 3. Fare	: Prijs van een kaartje
 4. Cabin	: In welke kabine de passagier zich bevind.
+
+Verder bevat de dataset categoriale waardes zoals de naam van de passagier, en het ID van de ticket. Ook bevat de dataset leeftijd en geslacht. Zie onderstaande notebook voor deze hoofdstuk.
 
 [Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
 
