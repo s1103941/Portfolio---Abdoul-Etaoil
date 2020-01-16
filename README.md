@@ -165,10 +165,10 @@ Binnen het CBS hebben we gewerkt met 2 datasets, de sociaal economische database
 ## Data toelichting kaggle dataset
 Aangezien ik tijdens het project weinig ben betrokken bij data exploratie, zal ik een kaggle dataset gebruiken om dit te kunnen bewijzen, welke data bevat over de titanic slachtoffers, met explanatory variabelen die beschrijven of een persoon de ramp heeft overleefd, of niet. Belangrijke variabelen zijn : 
 
-Survived : Heeft deze passagier de ramp overleefd of niet
-Pclass : De klasse van de passagiers (hoe hoger de klasse, hoe luxer)
-Fare	: Prijs van een kaartje
-Cabin	: In welke kabine de passagier zich bevind.
+1. Survived : Heeft deze passagier de ramp overleefd of niet
+2. Pclass : De klasse van de passagiers (hoe hoger de klasse, hoe luxer)
+3. Fare	: Prijs van een kaartje
+4. Cabin	: In welke kabine de passagier zich bevind.
 
 [Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
 
@@ -182,6 +182,8 @@ Nadat ik de PCA algoritme, en t-SNE algoritme heb gedraaid op de dataset, heb ik
 
 
 ## Data exploration kaggle dataset
+[Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
+
 Voordat ik begin met het visualiseren van de data, inspecteer ik de data om te kijken of er waardes zijn die ik niet zou verwachten(outliers), en of er waardes missen. Na een korte inspectie gedaan te hebben zie ik, dat er van 20% van de mensen de leeftijd mist, en van 77.7% van de mensen niet bekend is in welke kabine ze zaten. Ik zal deze waardes moeten vervangen, of moeten verwijderen, voordat er begonnen zal worden aan Machine Learning. Nadat de waardes zijn opgeschoond, heb ik visualizaties gemaakt, wat tot nieuwe inzichten heeft kunnen leiden met de dataset. Ik merk dat mensen die een ticket prijs van boven de 500 euro hebben, de dataset 'skewen', dit zijn outliers die ik uit het model heb verwijderd. 
 
 ## Data cleansing & Preparation<a name="clean"></a>
