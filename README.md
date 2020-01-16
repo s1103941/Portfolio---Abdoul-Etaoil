@@ -101,15 +101,17 @@ Onderstaande heb ik ook een foto toegevoegd van de scrumbord die we gebruikt heb
 
 In onze tijd bij het CBS bevatte onze dataset gelabelde gegevens. Omdat onze doelvariabele een voorspeller van cybercriminaliteit was, probeerden we te zien of we deze variabele konden voorspellen op basis van de kenmerken van mensen. Aangezien dit een classificatieprobleem is (en we ons beperkten tot SKLearn), beperkt dit de keuzes van het model tot classificatie-algoritmen zoals : 
 
-- Ondersteuning van Vector Machines
-- Logistieke Regressie
-- Willekeurig bos
-- K-Dichtstbijzijnde buren
+- Support Vector Machine
+- Logistic Regression
+- Random Forest
+- K-Nearest Neighbors
 
 Deze modellen zijn gekozen vanwege hun vermogen om het belang van functies uit te leggen. Ik heb gewerkt aan de Support Vector Machine, en K-Nearest Neighbors. SVM werd gebruikt vanwege de mogelijkheid om complexe relaties met datapunten vast te leggen. 
-Baskir, A (2015) vergeleek SVM met een ander classificatie-algoritme dat vergelijkbaar is (Logistic Regression), en het SVM-algoritme presteerde beter in bepaalde situaties.
+Bashir, A (2012) vergeleek SVM met een ander classificatie-algoritme dat vergelijkbaar is (Logistic Regression), en het SVM-algoritme presteerde beter in bepaalde situaties.
 
-Verder heb ik ook gewerkt met cluster algoritmen, zoals PCA, en t-SNE. Dit zijn unsupervised machine learning algoritmen, en deze werden gekozen, doordat ze populair, en veelgebruikte cluster algoritmen zijn, die wellicht in staat zouden zijn om groepen van slachtoffers bij elkaar te kunnen clusteren.
+Bron : Abdallah Bashir (2012). Comparative study on classification performance between support vector machine and logistic regression. International Journal of Machine Learning and Cybernetics. 4. 10.1007/s13042-012-0068-x. 
+
+Verder heb ik ook gewerkt met cluster algoritmen, zoals PCA, en t-SNE. Dit zijn unsupervised machine learning algoritmen, en deze werden gekozen, doordat ze populair, en veelgebruikte cluster algoritmen zijn, die wellicht in staat zouden zijn om groepen van slachtoffers bij elkaar te kunnen clusteren. Ook werden ze gekozen omdat deze 2 machine learning algoritmen ook gebruikt worden voor feature extraction, waardoor ze 2 functies dienen wat efficienter is gezien het duur van het project
 
 ## Configuring a model<a name="configure"></a>
 
@@ -153,6 +155,7 @@ Pclass : De klasse van de passagiers (hoe hoger de klasse, hoe luxer)
 Fare	: Prijs van een kaartje
 Cabin	: In welke kabine de passagier zich bevind.
 
+[Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
 
 ## Data exploration & Visualization
 
@@ -164,9 +167,11 @@ Nadat ik de PCA algoritme, en t-SNE algoritme heb gedraaid op de dataset, heb ik
 
 
 # Data exploration kaggle dataset
-Voordat ik begin met het visualiseren van de data, inspecteer ik de data om te kijken of er waardes zijn die ik niet zou verwachten(outliers), en of er waardes missen. Na een korte inspectie gedaan te hebben zie ik, dat er van 20% van de mensen de leeftijd mist, en van 77.7% van de mensen niet bekend is in welke kabine ze zaten. Ik zal deze waardes moeten vervangen, of moeten verwijderen, voordat er begonnen zal worden aan Machine Learning. Nadat de waardes zijn opgeschoond, heb ik visualizaties gemaakt, wat tot nieuwe inzichten heeft kunnen leiden met de dataset. Ik merk dat mensen die een ticket prijs van boven de 500 euro hebben, de dataset 'skewen', dit zijn outliers die ik uit het model heb verwijderd. Zie hieronder het verschil tussen deze twee.
+Voordat ik begin met het visualiseren van de data, inspecteer ik de data om te kijken of er waardes zijn die ik niet zou verwachten(outliers), en of er waardes missen. Na een korte inspectie gedaan te hebben zie ik, dat er van 20% van de mensen de leeftijd mist, en van 77.7% van de mensen niet bekend is in welke kabine ze zaten. Ik zal deze waardes moeten vervangen, of moeten verwijderen, voordat er begonnen zal worden aan Machine Learning. Nadat de waardes zijn opgeschoond, heb ik visualizaties gemaakt, wat tot nieuwe inzichten heeft kunnen leiden met de dataset. Ik merk dat mensen die een ticket prijs van boven de 500 euro hebben, de dataset 'skewen', dit zijn outliers die ik uit het model heb verwijderd. 
 
 ## Data cleansing & Preparation
+
+[Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
 
 Tijdens het inspecteren van de dataframe, heb ik gemerkt dat er 2 kolommen zijn die veel waardes missen. De leeftijd kolom mist ongeveer 20% van de waarden, en de kabine kolom ongeveer 80%. Ik heb ervoor gekozen om de kabine kolom weg te laten, omdat er te veel data mist. Het zou immers kunnen dat het model de kolom gebruikt om te bepalen of iemand de ramp heeft overleefd, wat niet de bedoeling is omdat 80% van de mensen deze waarden missen. Voor de leeftijd kolom is er gekozen om de missende waardes te imputeren, hier is voor gekozen omdat er niet teveel data mist, en omdat leeftijd een belangrijke factor kunnen zijn om te overleven(de kinderen eerst). Tijdens data exploration heb ik verder gemerkt dat er outliers in de data zaten, dit waren mensen die een ticket prijs hadden die te hoog was. Nadat de data is schoongemaakt, heb ik de dataframe nogmaals geinspecteerd. Binnen de dataset, zitten er een paar variabelen die categoriaal zijn. 
 
@@ -184,7 +189,7 @@ De derde presentatie was een externe presentatie, op 29 november die ik samen he
 
 De laatste presentatie die ik heb gegeven, was een interne presentatie in December. Tijdens deze presentatie heb ik het gehad over de machine learning modellen die we tot nu toe behandeld hadden, en welke het er best uit is gekomen.
 
-Zie deze folder voor de presentaties die ik heb gegeven : [Github](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentation/external presentation 2.pptx)
+Zie deze folder voor de presentaties die ik heb gegeven : [Github](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentation)
 
 # Schrijven van de paper<a name="paper"></a>
 
