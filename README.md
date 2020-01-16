@@ -10,12 +10,27 @@ Zoals in de afbeelding hieronder te zien is, heb ik alle datacamp courses behaal
 
 1. Reflectie
   1. [Reflectie op eigen contributie](#contributie)
-  2. Reflectie op leerdoelen
-  3. Reflectie op groepsproject als geheel
-3. Third item
-    1. Indented item
-    2. Indented item
-4. Fourth item
+  2. [Reflectie op leerdoelen in project](#leerdoelen)
+  3. [Reflectie op groepsproject als geheel](#groepsproject)
+2. Research methods
+    1. [Task Definition](#task)
+    2. [Evaluation](#evaluation)
+    3. [Conclusions](#conclusions)
+    4. [Planning](#planning)
+3. Predictive analytics
+    1. [Selecting a model](#select)
+    2. [Configuring a model](#configure)
+    3. [Training a model](#train)
+    4. [evaluating a model](#evaluate)
+4. Data preprocessing
+    1. [Selecting a model](#select)
+    2. [Configuring a model](#configure)
+    3. [Training a model](#train)
+    4. [evaluating a model](#evaluate)
+4. Communcatie
+    1. [Presentaties](#presentaties)
+    2. [Paper](#paper)
+   
 
 # Reflectie op eigen contributie in project<a name="contributie"></a>
 
@@ -55,7 +70,7 @@ Verder heb ik vol trots de t-SNE, en PCA plots gepresenteerd, maar ben er later 
 
 Voor de supervised machine learning algoritmen, ben ik blij met het resultaat, het kwam enigzins overeen met de modellen van mijn groepsgenoten, wat betekent dat het goed werkte. In de toekomst zal ik erop letten om de focus meer te leggen op resultaten.
 
-# Reflectie op leerdoelen in project
+# Reflectie op leerdoelen in project<a name="leerdoelen"></a>
 
 ## Situatie
 
@@ -85,7 +100,7 @@ Voor Machine Learning ben ik ook erg tevreden, voordat ik begon aan de minor was
 
 Onderzoek had naar mijn gevoel beter gekund, ik had niet al teveel in de paper geschreven, echter vind ik toch dat ik mijn leerdoel heb bereikt, omdat ik nooit eerder literatuur onderzoek heb gedaan voor een paper, en ik dit toch tijdens deze minor geleerd heb.
 
-# Reflectie op het groepsproject als geheel
+# Reflectie op het groepsproject als geheel<a name="groepsproject"></a>
 
 ## Situatie
 
@@ -121,7 +136,7 @@ Voor de paper ben erg tevreden, de paper heeft een goede structuur, en op basis 
 
 # Research methods
 
-## Task Definition
+## Task Definition<a name="task"></a>
 
 Ons doel, van het probleem van dit project was om erachter te komen of het mogelijk is, dat cybercriminaliteitsslachtoffers een aantal specifieke kenmerken of eigenschappen hebben, waardoor ze meer kans hebben om slachtoffer te worden.
 
@@ -131,11 +146,11 @@ Nadat we zagen dat we met gegevens uit 2016 werkten, herformuleerde we de onderz
 
 Aan het eind van het project hebben we de vraag nog een laatste keer geherformuleerd naar : "Welke economische en demografische kenmerken associëren positief met (een soort) cybercriminaliteitsslachtoffer van Nederlanders in 2016", waarbij we het psychologische deel wegnamen, omdat we erachter kwamen dat we niet zoveel informatie uit de dataset konden halen.
 
-## Evaluation
+## Evaluation<a name="evaluation"></a>
 
 Omdat we met een kleine hoeveelheid gegevens werkten, met zeer vergelijkbare kenmerken, was het voor ons moeilijk om te zien of er karakteristieken waren die konden verklaren of iemand meer kans had om slachtoffer van cybercriminaliteit te worden. Toch konden we zien dat met 3 van onze best presterende modellen, er een aantal karakteristieken tevoorschijn kwamen die het model besloot te gebruiken, wat ook in de andere modellen te zien was. Voor toekomstig werk zou ik aanraden om een soort neurale netwerk te gebruiken, om te zien of de voorspellingen verbeteren, of om de functies die uit ons onderzoek naar voren kwamen te gebruiken, en om te proberen ze beter te evalueren.
 
-## Conclusion
+## Conclusion<a name="conclusions"></a>
 
 Voor de paper, heb ik de conclusie geschreven, om de hoofdvraag 'Which characteristics associate positively with (a type of) cybercrime victimization in the Netherlands?' te kunnen beantwoorden
 
@@ -148,7 +163,7 @@ Het kenmerkende belang van de verschillende modellen kan dus nog steeds informat
 
 Wat betreft de sociaaleconomische en demografische kenmerken die positief samenhangen met de gerapporteerde slachtofferschap van cybercriminaliteit bij Nederlanders in 2016, beperken de wisselende resultaten van de modellen de eventuele claims die rond de kenmerken kunnen worden gedaan. Maar de score van de modellen presteert wel beter dan random, wat weer suggereert dat hier wellicht iets te vinden is. Een aanbeveling is om deep learning te gebruiken, zoals een Neural Network, en op basis hiervan kijken of deze een hogere accuracy geeft dan de modellen die wij in ons onderzoek gebruikt hebben
 
-## Planning
+## Planning<a name="planning"></a>
 
 Tijdens het project is er gebruik gemaakt van scrum, waarbij er gewerkt werd binnen sets van 2 scrums. Onderstaand is een tabel van mijn belangrijkste tickets, die ervoor gezorgd hebben om de deelvraag ‘’ te beantwoorden.
 
@@ -166,18 +181,7 @@ Onderstaande heb ik ook een foto toegevoegd van de scrumbord die we gebruikt heb
 # Predictive Analytics
 # Ik heb binnen dit hoofdstuk gewerkt met een kaggle dataset, in verband met privacy redenen van het CBS. De notebooks voor SVM en PCA/t-SNE zijn bijgevoegd aan de repository, maar zonder output. Deze is uiteraard binnen de kaggle dataset wel te zien.
 
-## Selecting a model
-During our time at CBS, our dataset contained labeled data. Since our target variable was a cybercrime predictor, we were trying to see if we could predict this variable based on the features of people. Since this is a classification problem(and we were limited to SKLearn), this limits the choices of the model to classification algorithms like : 
-
--	Support Vector Machines
--	Logistic Regression
--	Random Forest
--	K-Nearest Neighbors
-
-These models have been chosen, because of their ability to explain feature importance. I worked on the Support Vector Machine, and K-Nearest Neighbors. SVM was used because of it’s ability to capture complex relationships with datapoints. 
-Baskir, A (2015) compared SVM with another classification algorithm that is similar (Logistic Regression), and the SVM algorithm performed better in certain situations.
-
-## Selecting a model
+## Selecting a model<a name="select"></a>
 
 In onze tijd bij het CBS bevatte onze dataset gelabelde gegevens. Omdat onze doelvariabele een voorspeller van cybercriminaliteit was, probeerden we te zien of we deze variabele konden voorspellen op basis van de kenmerken van mensen. Aangezien dit een classificatieprobleem is (en we ons beperkten tot SKLearn), beperkt dit de keuzes van het model tot classificatie-algoritmen zoals : 
 
@@ -191,15 +195,15 @@ Baskir, A (2015) vergeleek SVM met een ander classificatie-algoritme dat vergeli
 
 Verder heb ik ook gewerkt met cluster algoritmen, zoals PCA, en t-SNE. Dit zijn unsupervised machine learning algoritmen, en deze werden gekozen, doordat ze wellicht clusters konden laten zien van groepen mensen binnen de dataset.
 
-## Selecting a model
+## Configuring a model<a name="configure"></a>
 
 Voor het configureren van het model heb ik gebruik gemaakt van een vorm van Cross validatie genaamd Randomized Search CV. Ik voer het algoritme, het bereik van de hyperparameters die de Machine Learning Models gebruiken, en het algoritme zal het model meerdere keren draaien met willekeurige parameters binnen het bereik, totdat het de beste set van hyperparameters vindt om te gebruiken binnen het model. In het notitieboekje heb ik dit uitgevoerd op een Support Vector Machine, door de hyperparameters : 'Gamma', 'C', en de kerneltype een random waarde te laten geven, zoals hieronder te zien is.
 
-## Training the model
+## Training the model<a name="train"></a>
 
 Na het trainen van het model met de best mogelijke hyperparameters, vergelijk ik de trein- en testgegevens met behulp van het classificatierapport van SKLearn. In eerste instantie kijk ik naar de nauwkeurigheid, om te kijken welk percentage van alle gevallen het model juist voorspelde: in dit geval is de nauwkeurigheid 78%, wat vrij goed is. Deze nauwkeurigheid geldt voor de trainingsgegevens. Voorafgaand aan de training van het model zijn de gegevens gesplitst in een trainingsset, en een testset, om te zien hoe het model presteert op ongeziene gegevens. Op de testgegevens geeft het model een nauwkeurigheid van : 74%. Het ziet er naar uit dat het model niet aan het overfitten, of underfitten is. Voor de zekerheid heb ik een ROC curve aan de notebook toegevoegd, de sample die ik heb genomen is gebalanceerd, dus de ROC curve is overbodig, maar dit zou ik kunnen gebruiken als een vorm van evalueren.
 
-## Evaluating the model
+## Evaluating the model<a name="evaluate"></a>
 
 Voor het evalueren van verschillende modellen voor de dataset, heb ik voor het project bij CBS een notebook gebouwd, wat alle machine learning modellen draait, en de scores van elke model(accuracy, precision, f1-score) opslaat. Dit model is hier te vinden. De modellen kunnen hiermee geevalueerd worden. Voor de scores verwijs ik u naar de paper, of naar de hoofdstuk research methods hier. 
 
@@ -207,23 +211,6 @@ De link naar de evalueer notebook is hier te vinden : [Notebook](https://github.
 
 Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik de modellen met elkaar. Naar gekeken te hebben naar de scores, ziet het er naar uit dat SVM beter performd.
 
-# Communicatie
-
-Tijdens de minor heb ik 4 presentaties gegeven, waarvan 2 presentaties intern zijn, en 2 extern. Mijn eerste presentatie is gegeven tijdens de tweede week van September, tijdens deze presentatie heb ik een introductie gegeven over ons project, en onze progressie tot dan.
-
-Presentatie 1 is hier te vinden : 
-
-De tweede presentatie die ik heb gegeven, was een externe presentatie op 28 oktober. Tijdens deze presentatie heb ik het gehad over onze exploratory data analysis, feature elimination en feature extraction, en heb ik wat meer duidelijkheid gegeven over onze definitie van een cybercrime slachtoffer. Verder heb ik ook de PCA en t-SNE plots gepresenteerd, die ik heb ontwikkeld tijdens het project.
-
-Presentatie 2 is hier te vinden : 
-
-De derde presentatie was een externe presentatie, op 29 november die ik samen heb gegeven met Nicky. Hierbij heb ik de recap gepresenteerd van de laatste externe presentatie, om wat duidelijkheid te geven aan het publiek.
-
-Presentatie 3 is hier te vinden : 
-
-De laatste presentatie die ik heb gegeven, was een interne presentatie in December. Tijdens deze presentatie heb ik het gehad over de machine learning modellen die we tot nu toe behandeld hadden, en welke het er best uit is gekomen.
-
-Presentatie 4 is hier te vinden : 
 
 # Data preprocessing
 
@@ -258,8 +245,9 @@ Tijdens het inspecteren van de dataframe, heb ik gemerkt dat er 2 kolommen zijn 
 
 Aangezien Machine Learning niet goed overeen kan met tekst, heb ik ervoor gekozen om de data te transformeren door middel van ‘One Hot Encoding’. Dit geeft elke categorie een binaire waarde in een aparte kolom. Vervolgens inspecteer ik de dataframe nogmaals, en is er nog 1 stap dat moet gebeuren. Aangezien er kolommen zijn met uiteenlopende waarden, zoals de ticket prijs, en leeftijd, zou het mogelijk zijn dat een model een bias zal krijgen tegenover deze waarden, wat tot minder accurate predicties lijkt. Ik kies er voor om de data opnieuw te transformeren, dit keer om het te standardiseren op een normale verdeling, zodat alle waarden even gedistribueerd zijn. De data is naar mijn mening nu geschikt voor Machine Learning.
 
+# Communicatie
 
-## Presentaties
+## Presentaties<a name="Presentaties"></a>
 
 Tijdens de minor heb ik 4 presentaties gegeven, waarvan 2 presentaties intern zijn, en 2 extern. Mijn eerste presentatie is gegeven tijdens de tweede week van September, tijdens deze presentatie heb ik een introductie gegeven over ons project, en onze progressie tot dan.
 
@@ -271,7 +259,7 @@ De laatste presentatie die ik heb gegeven, was een interne presentatie in Decemb
 
 Zie deze folder voor de presentaties die ik heb gegeven : [Github](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/presentation/external presentation 2.pptx)
 
-# Schrijven van de paper
+# Schrijven van de paper<a name="paper"></a>
 
 In de paper heb ik binnen de ‘Models’ hoofdstuk, beschreven hoe Support Vector Machines, en t-SNE werken(Ik heb deze models gemaakt), en waarom we gekozen hebben voor deze models. Ook heb ik beschreven waar we deze models voor gebruiken. Verder heb ik de conclusie geschreven binnen de paper, naar aanleiding van de notebook die ik heb ontwikkeld dat alle algoritmen evalueert.
 
