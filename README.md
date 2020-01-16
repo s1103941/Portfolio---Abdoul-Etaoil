@@ -6,7 +6,18 @@ Dit is mijn portfolio voor de minor Applied Data Science, Abdoul Etaoil - 150821
 Zoals in de afbeelding hieronder te zien is, heb ik alle datacamp courses behaald.
 ![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/datacamp.png)
 
-# Reflectie op eigen contributie in project
+# Inhoudsopgave
+
+1. Reflectie
+  1. [Reflectie op eigen contributie](#contributie)
+  2. Reflectie op leerdoelen
+  3. Reflectie op groepsproject als geheel
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item
+
+# Reflectie op eigen contributie in project<a name="contributie"></a>
 
 ## Situatie
 
