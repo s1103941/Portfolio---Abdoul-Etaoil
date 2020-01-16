@@ -94,7 +94,8 @@ Taak | Actie
 Machine Learning | Try ML classification algorithms: SVM
 Machine Learning | Try ML classification algorithms: K-NN
 Machine Learning | Try ML algorithm: t-SNE
-Machine Learning | Try 
+Machine Learning | Try PCA
+Data | Combine different data sets
 
 
 Onderstaande heb ik ook een foto toegevoegd van de scrumbord die we gebruikt hebben, waaronder 1 van bovenstaande tickets te zien is.
