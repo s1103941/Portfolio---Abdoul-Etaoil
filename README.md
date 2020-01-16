@@ -48,17 +48,17 @@ De deelvragen die geformuleerd zijn om antwoord te geven aan de hoofdvraag zijn,
 
 How should reported cybercrime victims through the scope of this project be defined?
 
-Which socio-economic and demographic features does the dataset from SN contain?
+Which socio-economic and demographic features does the dataset from SN contain? : 
 Hier heb ik aan bijgedragen door aan het begin van het project Exploratory Data Analysis te doen, en de dataset te inspecteren/cleanen.
 
 How to account for major imbalances between datasets when it comes to training machine learning models?
 
-Which models are appropriate for classifying cybercrime victims based on categorical values?
+Which models are appropriate for classifying cybercrime victims based on categorical values? : 
 Ik heb hier onderzoek naar gedaan aan het begin van het project, en op basis hiervan hebben we gebruik gemaakt van one-hot encoding.
 
 How can the chosen models be properly evaluated?
 
-What method can be applied to extract features that are positively associated with those victimized by cybercrime?
+What method can be applied to extract features that are positively associated with those victimized by cybercrime? : 
 Hier heb ik aan bijgedragen door te onderzoeken hoe feature importance uit een model gehaald kan worden, en heb ik dit geprobeerd te visualiseren met cluster algoritmen
 
 How can be statistically proven that victimized groups, individuals that have a certain amount of features in common, are significantly present in the dataset?
