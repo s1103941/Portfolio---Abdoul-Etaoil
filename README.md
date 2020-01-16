@@ -139,7 +139,7 @@ Na het trainen van het model met de best mogelijke hyperparameters, vergelijk ik
 
 Voor het evalueren van verschillende modellen voor de dataset, heb ik voor het project bij CBS een notebook gebouwd, wat alle machine learning modellen draait, en de scores van elke model(accuracy, precision, f1-score) opslaat. Dit model is hier te vinden :
 
-[Evalueer Notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/AutomatedModels.ipynb)
+[Evalueer Notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/AutomatedModels)
 
 Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik de modellen met elkaar. Na gekeken te hebben naar de scores, en door k-NN ook te hyper parameter tunen, ziet het er naar uit dat K-NN een iets betere performance heeft. De train en test accuracy zijn ook erg dicht bij elkaar, dus het ziet er ook naar uit dat het model niet aan het overfitting of underfitten is. Beide modellen scoren erg goed op het predicten van een 0
 
