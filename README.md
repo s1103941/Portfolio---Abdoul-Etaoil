@@ -164,7 +164,7 @@ Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik d
 Voor SVM, heb ik een ROC curve getekend als voorbeeld van model visualisatie/evaluatie : 
 ![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/ROC.png)
 
-Voor de verdere visualisatie van de modellen, verwijs ik u naar de notebook dat hier te vinden is : 
+Voor de verdere visualisatie van de modellen, verwijs ik u naar de kaggle notebook : 
 [Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/predictiveanalytics.ipynb)
 
 
