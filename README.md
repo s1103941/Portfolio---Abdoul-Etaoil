@@ -186,12 +186,12 @@ Aangezien ik tijdens het project weinig ben betrokken bij data exploratie, zal i
 
 Verder bevat de dataset categoriale waardes zoals de naam van de passagier, en het ID van de ticket. Ook bevat de dataset leeftijd en geslacht. Zie onderstaande notebook voor deze hoofdstuk.
 
-[Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
+[Link naar kaggle notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
 
 ## Data exploration & Visualization<a name="exploration"></a>
 
 ## Outlier in CBS data
-[Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/PCA.ipynb)
+[Link naar PCA notebook voor CBS](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/PCA.ipynb)
 
 Nadat ik de PCA algoritme, en t-SNE algoritme heb gedraaid op de dataset, heb ik gemerkt dat er bepaalde punten zijn die ver van de rest zijn. Hiermee had ik succesvol outliers kunnen detecteren, wat vervolgens uit de dataset werd gehaald omdat het model hier een bias op kan hebben : zie het figuur hieronder voor bewijslast.
 
@@ -200,13 +200,13 @@ Nadat ik de PCA algoritme, en t-SNE algoritme heb gedraaid op de dataset, heb ik
 
 
 ## Data exploration kaggle dataset
-[Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
+[Link naar kaggle notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
 
 Voordat ik begin met het visualiseren van de data, inspecteer ik de data om te kijken of er waardes zijn die ik niet zou verwachten(outliers), en of er waardes missen. Na een korte inspectie gedaan te hebben zie ik, dat er van 20% van de mensen de leeftijd mist, en van 77.7% van de mensen niet bekend is in welke kabine ze zaten. Ik zal deze waardes moeten vervangen, of moeten verwijderen, voordat er begonnen zal worden aan Machine Learning. Nadat de waardes zijn opgeschoond, heb ik visualizaties gemaakt, wat tot nieuwe inzichten heeft kunnen leiden met de dataset. Ik merk dat mensen die een ticket prijs van boven de 500 euro hebben, de dataset 'skewen', dit zijn outliers die ik uit het model heb verwijderd. 
 
 ## Data cleansing & Preparation<a name="clean"></a>
 
-[Link naar notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
+[Link naar kaggle notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/titanic.ipynb)
 
 Tijdens het inspecteren van de dataframe, heb ik gemerkt dat er 2 kolommen zijn die veel waardes missen. De leeftijd kolom mist ongeveer 20% van de waarden, en de kabine kolom ongeveer 80%. Ik heb ervoor gekozen om de kabine kolom weg te laten, omdat er te veel data mist. Het zou immers kunnen dat het model de kolom gebruikt om te bepalen of iemand de ramp heeft overleefd, wat niet de bedoeling is omdat 80% van de mensen deze waarden missen. Voor de leeftijd kolom is er gekozen om de missende waardes te imputeren, hier is voor gekozen omdat er niet teveel data mist, en omdat leeftijd een belangrijke factor kunnen zijn om te overleven(de kinderen eerst). Tijdens data exploration heb ik verder gemerkt dat er outliers in de data zaten, dit waren mensen die een ticket prijs hadden die te hoog was. Nadat de data is schoongemaakt, heb ik de dataframe nogmaals geinspecteerd. Binnen de dataset, zitten er een paar variabelen die categoriaal zijn. 
 
