@@ -69,14 +69,14 @@ Omdat we met een kleine hoeveelheid gegevens werkten, met zeer vergelijkbare ken
 
 Voor de paper, heb ik de conclusie geschreven, om de hoofdvraag 'Which characteristics associate positively with (a type of) cybercrime victimization in the Netherlands?' te kunnen beantwoorden
 
-Het doel van deze studie was om bepaalde groepen te vinden die een aantal kenmerken kunnen beschrijven die een positief verband hebben met het feit dat iemand het slachtoffer van cybercriminaliteit kan worden. Ten eerste zijn de resultaten van de classificatie-algoritmen zo'n 65% nauwkeurig gemeten, waardoor er geen specifieke claims kunnen worden gedaan ten aanzien van een concreet slachtofferschapsprofiel. Bovendien geeft de score aan dat er voor sommige groepen de neiging bestaat om slachtoffer te worden. Dit kan worden geconcludeerd omdat de modellen in staat zijn om een onderscheid te maken tussen slachtoffers en niet-slachtoffers met een nauwkeurigheid die 15% beter is dan het toevallige gissen, dit kan je zien aan de scores van de modellen in de tabel hieronder.
+Het doel van deze studie was om bepaalde groepen te vinden die een aantal kenmerken kunnen beschrijven die een positief verband hebben met het feit dat iemand het slachtoffer van cybercriminaliteit kan worden. Ten eerste hebben de resultaten van de classificatie-algoritmen zo'n 65% nauwkeurigheid gemeten, waardoor er geen specifieke claims kunnen worden gedaan ten aanzien van een concreet slachtofferschapsprofiel. De score geeft aan dat er voor sommige groepen de neiging bestaat om slachtoffer te worden. Dit kan worden geconcludeerd omdat de modellen in staat zijn om een onderscheid te maken tussen slachtoffers en niet-slachtoffers met een nauwkeurigheid die 15% beter is dan random guessing, dit kan je zien aan de scores van de modellen in de tabel hieronder.
 ![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/metrics.png)
 
 
 Het kenmerkende belang van de verschillende modellen kan dus nog steeds informatie geven over welke kenmerken in de zaak relevant zijn. De leeftijdsgroepen zijn belangrijk voor alle modellen en ook voor de chi-square toets. Het geslacht van het slachtoffer is ook aanwezig in sommige modellen en is een relevant splitsingspunt voor de decision tree. Verder blijkt uit de resultaten van t-SNE dat het niet in staat is om slachtoffers op hun kenmerken correct te clusteren, zoals hieronder te zien : 
 ![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/is_cyber_victim_1.png)
 
-Wat betreft de sociaaleconomische en demografische kenmerken die positief samenhangen met de gerapporteerde slachtofferschap van cybercriminaliteit bij Nederlanders in 2016, beperken de wisselende resultaten van de modellen de eventuele claims die rond de kenmerken kunnen worden gedaan. Maar de score van de modellen presteert wel beter dan random, wat weer suggereert dat hier wellicht iets te vinden is. Een aanbeveling is om deep learning te gebruiken, zoals een Neural Network, en op basis hiervan kijken of deze een hogere accuracy geeft dan de modellen die wij in ons onderzoek gebruikt hebben
+Wat betreft de sociaaleconomische en demografische kenmerken die positief samenhangen met de gerapporteerde slachtofferschap van cybercriminaliteit bij Nederlanders in 2016, beperken de wisselende resultaten van de modellen de eventuele claims die rond de kenmerken kunnen worden gedaan. Maar de score van de modellen presteren wel beter dan random, wat weer suggereert dat hier wellicht iets te vinden is. Een aanbeveling is om deep learning te gebruiken, zoals een Neural Network, en op basis hiervan kijken of deze een hogere accuracy geeft dan de modellen die wij in ons onderzoek gebruikt hebben
 
 ## Planning<a name="planning"></a>
 
@@ -136,11 +136,14 @@ Na het trainen van het model met de best mogelijke hyperparameters, vergelijk ik
 
 ## Evaluating the model<a name="evaluate"></a>
 
-Voor het evalueren van verschillende modellen voor de dataset, heb ik voor het project bij CBS een notebook gebouwd, wat alle machine learning modellen draait, en de scores van elke model(accuracy, precision, f1-score) opslaat. Dit model is hier te vinden. De modellen kunnen hiermee geevalueerd worden. Voor de scores verwijs ik u naar de paper, of naar de hoofdstuk research methods hier. 
+Voor het evalueren van verschillende modellen voor de dataset, heb ik voor het project bij CBS een notebook gebouwd, wat alle machine learning modellen draait, en de scores van elke model(accuracy, precision, f1-score) opslaat. Dit model is hier te vinden :
 
-De link naar de evalueer notebook is hier te vinden : [Notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/AutomatedModels.ipynb)
+[Evalueer Notebook](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/AutomatedModels.ipynb)
 
-Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik de modellen met elkaar. Na gekeken te hebben naar de scores, en door k-NN ook te hyper parameter tunen, ziet het er naar uit dat K-NN een iets betere performance. De train en test accuracy zijn ook erg dicht bij elkaar, dus het ziet er ook naar uit dat het model niet aan het overfitting of underfitten is.
+Binnen de kaggle dataset, heb ik naast SVM, ook k-NN gedraaid, en vergelijk ik de modellen met elkaar. Na gekeken te hebben naar de scores, en door k-NN ook te hyper parameter tunen, ziet het er naar uit dat K-NN een iets betere performance heeft. De train en test accuracy zijn ook erg dicht bij elkaar, dus het ziet er ook naar uit dat het model niet aan het overfitting of underfitten is. Beide modellen scoren erg goed op het predicten van een 0
+
+
+
 
 ## Visualizing the outcome of a model<a name="outcome"></a>
 
@@ -157,7 +160,7 @@ Voor de verdere visualisatie van de modellen, verwijs ik u naar de notebook dat 
 
 ## Data toelichting CBS dataset
 
-Binnen het CBS hebben we gewerkt met 2 datasets, de sociaal economische database, wat alle personen bevat in nederland met hun sociaal-demografische gegevens/karakteristieken, en het 2016 politiebestand, welke een predictor bevat of iemand is geclassificeerd als een cybercrime slachtoffer of niet.
+Binnen het CBS hebben we gewerkt met 2 datasets, de sociaal economische database, wat alle personen bevat in nederland met hun sociaal-demografische gegevens/karakteristieken, en het 2016 politiebestand, welke een predictor bevat of iemand is geclassificeerd als een cybercrime slachtoffer of niet, samen met informatie over een delict : denk aan een gewapende overval, of fraude.
 
 ## Data toelichting kaggle dataset
 Aangezien ik tijdens het project weinig ben betrokken bij data exploratie, zal ik een kaggle dataset gebruiken om dit te kunnen bewijzen, welke data bevat over de titanic slachtoffers, met explanatory variabelen die beschrijven of een persoon de ramp heeft overleefd, of niet. Belangrijke variabelen zijn : 
