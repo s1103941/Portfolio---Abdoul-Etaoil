@@ -95,7 +95,7 @@ Onderstaande heb ik ook een foto toegevoegd van de scrumbord die we gebruikt heb
 ![Screenshot](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/images/scrumbord.png)
 
 # Predictive Analytics <a name="predictive"></a>
-# Ik heb binnen dit hoofdstuk gewerkt met een kaggle dataset, in verband met privacy redenen van het CBS. De notebooks voor SVM en PCA/t-SNE zijn bijgevoegd aan de repository, maar zonder output. Deze is uiteraard binnen de kaggle dataset wel te zien.
+## Ik heb binnen dit hoofdstuk gewerkt met een kaggle dataset, in verband met privacy redenen van het CBS. De notebooks voor SVM en PCA/t-SNE zijn bijgevoegd aan de repository(als bewijs dat ik het heb gemaakt bij cbs) , maar zonder output. Deze is uiteraard binnen de kaggle dataset wel te zien.
 
 Binnen het hoofdstuk zal ik de focus leggen op deze notebook
 [Link naar notebook voor kaggle dataset](https://github.com/s1103941/Portfolio---Abdoul-Etaoil/blob/master/notebook/predictiveanalytics.ipynb)
